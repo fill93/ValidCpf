@@ -1,6 +1,6 @@
-# ValidCpf - Verificar validade do CPF no Android
+# ValidCpf - check if a cpf is valid
 
-# Instalação
+# Installation
 
     allprojects {
       repositories {
@@ -17,16 +17,16 @@ Build.gradle
       implementation 'com.github.fill93:ValidCpf:1.0.0'
     }
     
-# Uso
+# Usage
 
-Passe um cpf (com ou sem pontuação) como parâmetro no método
+Pass a cpf (with or without punctuation) as a parameter in the method
 
     ValidCPF.isCPFValid("cpf_string")
     
-    Este método retorna true caso o CPF seja válido
+This method returns true if the CPF is valid
     
     
-# Exemplo
+# Example
 
 ![](app/src/main/res/drawable/Capturar0.PNG)
 
